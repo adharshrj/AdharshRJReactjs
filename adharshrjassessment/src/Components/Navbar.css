@@ -1,0 +1,32 @@
+.modal{
+    background-blend-mode:overlay;
+}
+#nav-bar{
+    background-color: blueviolet;
+
+}
+
+#nav-link{
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+#responsive-nav-dropdown{
+    color: aliceblue;
+    font-weight: bolder;
+}
+.navbar-toggler{
+    color:aliceblue;
+    font-weight: bolder;
+}
+.mr-auto{
+    color: whitesmoke;
+}
+
+.btn-outline-success{
+
+background-color: black;
+color: white;
+font-weight: bolder;
+    
+}

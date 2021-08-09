@@ -1,0 +1,25 @@
+.MyStudentLogin{
+    align-items: center;
+    min-width: max-content;
+    mask-type: alpha;
+  }
+  
+  
+  .alert-danger {
+    width: max-content !important;
+  }
+  
+  .form-control {
+    width: max-content !important;
+  }
+  
+  .form-group{
+    width: max-content !important;
+  }
+  
+  .btn-custom{
+    background-color: blue;
+    color: white;
+    width: max-content !important;
+  }
+  

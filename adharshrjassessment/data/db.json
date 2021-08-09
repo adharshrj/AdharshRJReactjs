@@ -1,0 +1,172 @@
+{
+
+"login":[
+    {
+        "username":"adharsh",
+        "password":"adharsh123",
+        "name":"Adharsh RJ",
+        "city":"Chennai",
+        "company":"SRM Technologies",
+        "email":"adharshrj@s.com",
+        "department":"CCX",
+        "country":"India"
+    },
+
+    {
+        "username":"adharsh2",
+        "password":"adharsh123",
+        "name":"RJ Adharsh",
+        "city":"Chennai",
+        "company":"SRM Technologies",
+        "email":"adharsh2rj@s.com",
+        "department":"CCX",
+        "country":"India"
+    }
+],
+"cities": [
+    {
+      "id": 1,
+      "name": "Chennai"
+    },
+    {
+      "id": 2,
+      "name": "Bangalore"
+    },
+    {
+      "id": 3,
+      "name": "Mumbai"
+    }
+  
+  ],
+    "types": [
+      {
+        "id": 1,
+        "name": "A"
+      },
+      {
+        "id": 2,
+        "name": "B"
+      },
+      {
+        "id": 3,
+        "name": "C"
+      },
+      {
+        "id": 4,
+        "name": "D"
+      }
+    ],
+    "user": [],
+    "student": [
+      {
+        "name": "adh",
+        "email": "em@fm.cc",
+        "passwd": "dfdsfdsfsf",
+        "campus": "1",
+        "hostel": false,
+        "nothostel": false,
+        "residencetype": "1",
+        "country": "1",
+        "Yes": true,
+        "id": 1
+      },
+      {
+        "name": "add",
+        "email": "ads@gm.cc",
+        "passwd": "adsad",
+        "campus": "1",
+        "hostel": false,
+        "nothostel": false,
+        "residencetype": "1",
+        "country": "2",
+        "Yes": true,
+        "id": 2
+      },
+      {
+        "name": "adh",
+        "email": "man@gm.c",
+        "passwd": "sdadasdadas",
+        "campus": "1",
+        "hostel": false,
+        "nothostel": false,
+        "residencetype": "1",
+        "country": "1",
+        "Yes": true,
+        "id": 3
+      },
+      {
+        "name": "ssdsa",
+        "email": "man@gm.cc",
+        "passwd": "123456",
+        "campus": "1",
+        "hostel": false,
+        "nothostel": false,
+        "residencetype": "1",
+        "country": "2",
+        "Yes": true,
+        "id": 4
+      },
+      {
+        "name": "ssdsa",
+        "email": "man@gm.cc",
+        "passwd": "123456",
+        "campus": "1",
+        "hostel": false,
+        "nothostel": false,
+        "residencetype": "1",
+        "country": "2",
+        "Yes": true,
+        "id": 5
+      }
+    ],
+    "campus": [
+      {
+        "id": 1,
+        "name": "Chennai"
+      },
+      {
+        "id": 2,
+        "name": "Bangalore"
+      },
+      {
+        "id": 3,
+        "name": "Mumbai"
+      }
+    ],
+    "residencetype": [
+      {
+        "id": 1,
+        "name": "Hosteller"
+      },
+      {
+        "id": 2,
+        "name": "Day Scholar"
+      }
+    ],
+    "country": [
+      {
+        "id": 1,
+        "name": "India"
+      },
+      {
+        "id": 2,
+        "name": "USA"
+      },
+      {
+        "id": 3,
+        "name": "UK"
+      },
+      {
+        "id": 4,
+        "name": "Canada"
+      },
+      {
+        "id": 5,
+        "name": "Russia"
+      },
+      {
+        "id": 6,
+        "name": "Italy"
+      }
+    ]
+  }
