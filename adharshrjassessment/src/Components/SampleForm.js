@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ErrorMessage from "./ErrorMessage";
 import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
-
-
+import Formik from "formik"
 
 export default function SampleForm(props) {
   const initialValues = {
@@ -161,24 +160,21 @@ export default function SampleForm(props) {
 
   }, []);
 
-  // const renderTable = () => {
-  //   return data.map(student =>{
-  //     return(
-  //       <tr>
-  //         <td>{student.name}</td>
-  //         <td>{student.email}</td>
-  //         <td>{student.passwd}</td>
-  //         <td>{student.campus}</td>
-  //         <td>{student.residencetype}</td>
-  //         <td>{student.country}</td>
-  //       </tr>
-  //     )
-  //   })
-  // }
  
   return (
     <div className = "App">
-      
+      <Formik
+      initialValues={{
+        name:"",
+        passwd:"",
+        campus:"",
+        residencetype:"",
+        country:""
+      }}
+      onSubmit={values => {
+        handleDoSubmit(values.initialValues)
+      }}
+    ></Formik>
       {res && submitted && <div>{res}</div>}
       {(Object.entries(formErrors).length === 0) && submitted && <div> Form Gets Submitted Sucessfully </div>}
       <form onSubmit={handleDoSubmit} noValidate>
